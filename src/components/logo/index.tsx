@@ -31,7 +31,7 @@ export const Logo = (props: Props) => {
           level={5}
           {...props.titleProps}
         >
-          Refine{" "}
+          Simple{" "}
         </Typography.Title>
         <Typography.Title
           className={styles.headerTitleInvoicer}
