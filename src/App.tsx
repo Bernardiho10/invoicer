@@ -39,7 +39,7 @@ import "./styles/custom.css";
 
 const App: React.FC = () => {
   return (
-    <DevtoolsProvider>
+    // <DevtoolsProvider>
       <BrowserRouter>
         <ConfigProvider>
           <AntdApp>
@@ -165,7 +165,7 @@ const App: React.FC = () => {
                         }
                         formProps={{
                           initialValues: {
-                            email: "demo@refine.dev",
+                            email: "demo@bernardihomail.dev",
                             password: "demodemo",
                           },
                         }}
@@ -194,9 +194,9 @@ const App: React.FC = () => {
             </Refine>
           </AntdApp>
         </ConfigProvider>
-        <DevtoolsPanel />
+        {/* <DevtoolsPanel /> */}
       </BrowserRouter>
-    </DevtoolsProvider>
+    // {/* </DevtoolsProvider> */}
   );
 };
 
